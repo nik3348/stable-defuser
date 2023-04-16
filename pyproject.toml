@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "defuse"
+version = "0.1.0"
+description = ""
+authors = ["Nicholas Lai Jin Yung <nicklai88@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+diffusers = "^0.15.0"
+transformers = "^4.28.1"
+accelerate = "^0.18.0"
+scipy = "^1.10.1"
+safetensors = "^0.3.0"
+torch = "^2.0.0"
+py-cord = "^2.4.1"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
