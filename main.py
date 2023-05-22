@@ -2,7 +2,7 @@ import discord
 import os
 
 from io import BytesIO
-from defuse.diffuser import generate
+from defuse.unclip import generate
 from dotenv import load_dotenv
 
 load_dotenv()
